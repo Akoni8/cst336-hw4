@@ -14,7 +14,6 @@ $('form').submit(function() {
 });
 
 $('#reset').click(function() {
-  //console.log($('#imageBox').val());
   $("#imageBox").empty();
 });
 
@@ -25,7 +24,12 @@ function fighter(){
   console.log("Likes to fight?" + likeFight);
   var fighter = $("#class").val();
   console.log(fighter);
-  if(likeFight == "no"){
+  
+  if(name == "" || likeFight == "" || fighter == ""){
+    alert("Please fill out all form elements.")
+  }
+  
+  else if(likeFight == "no"){
         $("#imageBox").append("<div>"+name+" you got Yamcha because you don't like to fight</div>");
         $("#imageBox").append('<img src="images/Yamcha.jpg" alt = "Yamcha">');
    

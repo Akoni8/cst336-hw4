@@ -15,9 +15,7 @@
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-
         <div id="container">
-            
             <p id="logo">
             <a href="https://fontmeme.com/dragon-ball-z-font/"><img src="https://fontmeme.com/permalink/171013/494be0ef5bf2ce1c5562f71f2ffe0e3b.png" alt="dragon-ball-z-font" border="0"></a>
             </p>
@@ -52,7 +50,7 @@
             </form>
              <div id="imageBox"></div>
         </div>
-         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-            <script type="text/javascript" src="js/dbz.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/dbz.js"></script>
     </body>
 </html>

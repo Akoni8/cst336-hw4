@@ -1,6 +1,7 @@
 body {
     background-color: black;
     background-repeat: no-repeat;
+    background-image: url("../images/battleground.jpg");
     background-size: cover;
     font-family: helvetica;
     font-size: 1.4em;
