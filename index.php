@@ -24,16 +24,16 @@
             
             <h1>Which fighter are you?</h1>
             
-            <form>
+            <form onsubmit="return false;">
                     <div>
                         <span>What is your name?</span>
                         <input class="form-control" type="text" name="name" placeholder="Name">
                     </div>
                     <div>
                         <span>Do you like fighting?</span>
-                        <input type="radio" name="yes" value="yes" id="yes"/>
+                        <input type="radio" name="fight" value="yes" class="fight"/>
                         <label for="yes">Yes</label>
-                        <input type="radio" name="no" value="no" id="no"/>
+                        <input type="radio" name="fight" value="no" class="fight"/>
                         <label for="no">No</label>
                     </div>
                     <div class="form-group">
@@ -46,13 +46,12 @@
                         </select>
                     </div>
                     <div>
-                        <input class="btn btn-primary" type="reset">
+                        <input class="btn btn-primary" id="reset" type="reset">
                         <input class="btn btn-primary" name="submit" id="submit" type="submit" value="Submit">
                     </div>
             </form>
              <div id="imageBox"></div>
         </div>
-      
          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
             <script type="text/javascript" src="js/dbz.js"></script>
     </body>
